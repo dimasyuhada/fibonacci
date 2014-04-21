@@ -1,0 +1,32 @@
+package fibonacci;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Praktikum
+ */
+public class Fibonacci {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    System.out.print("masukkan angka fibonacci: ");
+    Scanner sc = new Scanner(System.in);
+    int x = sc.nextInt();    
+    int a=0;
+    int b=1;
+    for ( int i=1; i<=x; i++)
+    {
+        System.out.print(" ");
+        System.out.print(a);
+        a=a+b;
+        b=a-b;
+            
+    }
+    System.out.println(" ");
+    }
+    }
+    
